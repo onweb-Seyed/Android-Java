@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    android:background="#F3F5F9"
+    android:layoutDirection="rtl">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="خوش آمدید"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#1D3557"
+        android:gravity="center"
+        android:lineSpacingExtra="12dp"/>
+
+</LinearLayout>

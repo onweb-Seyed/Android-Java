@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.weathervolley'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.example.weathervolley'
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    // کتابخانه Volley برای ارسال و مدیریت درخواست های شبکه
+    implementation 'com.android.volley:volley:1.2.1'
+}
