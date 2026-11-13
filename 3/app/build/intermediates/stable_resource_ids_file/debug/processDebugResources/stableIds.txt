@@ -1,0 +1,1 @@
+com.example.simplemusicplayer:raw/sample_music = 0x7f010000

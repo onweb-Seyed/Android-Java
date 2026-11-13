@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.example.simplemusicplayer.app-debug-4:/raw_sample_music.wav.flat",
+        "source": "com.example.simplemusicplayer.app-main-6:/raw/sample_music.wav"
+    }
+]
